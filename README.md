@@ -50,11 +50,11 @@ Este proyecto es una prueba técnica para un puesto de desarrollador backend en 
 1. Clona este repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/EduBDeveloper/ecommerce-challenge
 cd ecommerce-challenge
 ```
 
-2. Construye y levanta los contenedores:
+2. Construi y levanta los contenedores:
 
 ```bash
 docker-compose up --build
@@ -92,12 +92,11 @@ docker-compose down
 1. Clona este repositorio y crea un entorno virtual:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/EduBDeveloper/ecommerce-challenge
 cd ecommerce-challenge
 python -m venv venv
-# Linux/macOS:
-source venv/bin/activate
-# Windows:
+
+Windows:
 venv\Scripts\activate
 ```
 
@@ -108,16 +107,12 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-3. Copia el archivo de ejemplo de variables de entorno y edítalo:
-
-```bash
-cp .env.example .env
-```
+3. Agrega a la raiz un archivo .env 
 
 Ajusta las variables según tu entorno:
 
 ```dotenv
-DATABASE_URL=postgresql+asyncpg://postgres:1234@localhost:5432/ecommerce
+DATABASE_URL=postgresql+asyncpg://postgres:1234@localhost:5432/ecommerce #Usa tus propias credenciales
 INVENTORY_API_URL=https://fakestoreapi.com/products
 ENV=development
 ```
@@ -219,3 +214,6 @@ Ahí encontrarás ejemplos de request/response, modelos de datos y la descripci�
 Este proyecto fue diseñado aplicando los principios SOLID (SRP, OCP, LSP, ISP y DIP) para garantizar un código limpio, modular y mantenible.
 
 ¡Gracias por revisar mi prueba técnica! Estoy a disposición para cualquier consulta o demo adicional.
+
+
+
