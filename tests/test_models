@@ -1,0 +1,28 @@
+import pytest
+from app.models import User, Product, Customer, OrderItem
+
+def test_user_model_validations():
+    # Username y password no pueden estar vacíos
+    with pytest.raises(ValueError):
+        User(username="", hashed_password="pw")
+    with pytest.raises(ValueError):
+        User(username="user", hashed_password="")
+
+def test_product_model_validations():
+    # Nombre no vacío, precio >= 0
+    with pytest.raises(ValueError):
+        Product(name="", price=10.0)
+    with pytest.raises(ValueError):
+        Product(name="A", price=-5.0)
+
+def test_customer_model_validations():
+    # Email no vacío
+    with pytest.raises(ValueError):
+        Customer(full_name="X", email="")
+
+def test_orderitem_model_validations():
+    # Quantity > 0
+    with pytest.raises(ValueError):
+        OrderItem(order_id=1, product_id=1, quantity=0)
+    with pytest.raises(ValueError):
+        OrderItem(order_id=1, product_id=1, quantity=-1)
