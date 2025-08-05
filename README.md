@@ -87,7 +87,7 @@ docker-compose down
 
 ## 🛠️ Instalación y ejecución local (sin Docker)
 
-> **Requisito**: Python 3.11+ instalado.
+> **Requisito**: Python 3.11 instalado.
 
 1. Clona este repositorio y crea un entorno virtual:
 
@@ -214,6 +214,7 @@ Ahí encontrarás ejemplos de request/response, modelos de datos y la descripci�
 Este proyecto fue diseñado aplicando los principios SOLID (SRP, OCP, LSP, ISP y DIP) para garantizar un código limpio, modular y mantenible.
 
 ¡Gracias por revisar mi prueba técnica! Estoy a disposición para cualquier consulta o demo adicional.
+
 
 
 
