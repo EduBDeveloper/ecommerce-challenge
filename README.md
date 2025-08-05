@@ -2,7 +2,7 @@
 
 **Proyecto Backend en FastAPI**
 
-Este proyecto es una prueba técnica para un puesto de desarrollador backend en un banco. Implementa un sistema de e-commerce con funcionalidades de usuarios, API Keys, clientes, productos, pedidos, integración con RabbitMQ y un cliente HTTP externo para inventario.
+Este proyecto es una prueba técnica para un puesto de desarrollador backend. Implementa un sistema de e-commerce con funcionalidades de usuarios, API Keys, clientes, productos, pedidos, integración con RabbitMQ y un cliente HTTP externo para inventario.
 
 ---
 
@@ -214,6 +214,7 @@ Ahí encontrarás ejemplos de request/response, modelos de datos y la descripci�
 Este proyecto fue diseñado aplicando los principios SOLID (SRP, OCP, LSP, ISP y DIP) para garantizar un código limpio, modular y mantenible.
 
 ¡Gracias por revisar mi prueba técnica! Estoy a disposición para cualquier consulta o demo adicional.
+
 
 
 
